@@ -1,0 +1,18 @@
+iframe {
+    width: 100%;
+    /* min-width: 50vw; */
+    height: 23vw;
+}
+
+@media (max-width: 1342px) {
+    iframe {
+        min-width: 425px;
+        min-height: 280px;
+    }
+}
+
+@media (max-height: 770px) {
+    .iframe-container {
+        text-align: center;
+    }
+}
