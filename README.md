@@ -1,2 +1,2 @@
 # PersonalWebsite
- This is the GIthub for my personal websit
+ This is the GitHub for my personal website
