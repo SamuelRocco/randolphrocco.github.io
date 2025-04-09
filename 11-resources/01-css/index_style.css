@@ -18,7 +18,7 @@
 .introspan {
   font-size: 2.5em;
 
-  background: linear-gradient(to right, mediumslateblue, dodgerblue);
+  background: linear-gradient(to right, dodgerblue, dodgerblue);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -27,7 +27,7 @@
   font-weight: bolder;
 
   font-style: italic;
-  background: linear-gradient(to right, mediumslateblue, dodgerblue);
+  background: linear-gradient(to right, dodgerblue, dodgerblue);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
 }
@@ -63,8 +63,9 @@
     black,
     black,
     black,
-    mediumslateblue,
-    mediumslateblue,
+    black,
+    dodgerblue,
+    dodgerblue,
     dodgerblue,
     dodgerblue
   );

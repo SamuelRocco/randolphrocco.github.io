@@ -45,7 +45,7 @@ span {
 
 .mention {
     text-align: center;
-    color: mediumslateblue;
+    color: dodgerblue;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -94,12 +94,12 @@ span {
 .link:hover {
     /* color: #222; */
     color: #fff;
-    box-shadow: inset 24vw 0 0 0 mediumslateblue;
+    box-shadow: inset 24vw 0 0 0 dodgerblue;
     /* background: linear-gradient(to right, mediumslateblue, dodgerblue); */
 }
 
 .item {
-    /* column-count: 2; */
+    column-count: 2;
     line-height: 1.5vh;
 }
 
@@ -186,12 +186,12 @@ span {
     box-sizing: border-box;
     border-radius: 25px;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.7);
-    animation: slidein 1s ease-in-out;
+    animation: slidein 2s ease-in-out;
 }
 
 @keyframes slidein {
     from {
-        left: -10vw;
+        left: -30vw;
     }
 
     to {
@@ -220,7 +220,7 @@ span {
 
 .sidebar ul li a:hover {
     transform: scale(1.2);
-    background: linear-gradient(to right, white, white, white, mediumslateblue, mediumslateblue, dodgerblue, dodgerblue);
+    background: linear-gradient(to right, white, white, white, dodgerblue, dodgerblue, dodgerblue, dodgerblue);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     /* color: mediumslateblue; */
@@ -348,7 +348,7 @@ ul {
     }
 
     .introtext #p2 {
-        font-size: 6.5em;
+        font-size: 5.5em;
     }
 }
 
@@ -366,7 +366,7 @@ ul {
     .link:hover {
         /* color: #222; */
         color: #fff;
-        box-shadow: inset 30vw 0 0 0 mediumslateblue;
+        box-shadow: inset 30vw 0 0 0 dodgerblue;
         /* background: linear-gradient(to right, mediumslateblue, dodgerblue); */
     }
 }
@@ -376,7 +376,7 @@ ul {
     .link:hover {
         /* color: #222; */
         color: #fff;
-        box-shadow: inset 30vw 0 0 0 mediumslateblue;
+        box-shadow: inset 30vw 0 0 0 dodgerblue;
         /* background: linear-gradient(to right, mediumslateblue, dodgerblue); */
     }
 
@@ -420,7 +420,7 @@ ul {
     }
 
     h3 {
-        font-size: large;
+        font-size: larger;
         line-height: normal;
     }
 
