@@ -13,7 +13,7 @@ html {
     /* background-image: linear-gradient(to right,plum, mintcream); */
 
     /* background-color: #ddd; */
-    background-color: #eee;
+    background-color: #afabab;
     /* background-color: #555; */
     background-attachment: fixed;
 
@@ -99,7 +99,7 @@ span {
 }
 
 .item {
-    column-count: 2;
+    /* column-count: 2; */
     line-height: 1.5vh;
 }
 
@@ -297,6 +297,18 @@ footer {
 
 }
 
+iframe {
+    aspect-ratio: 16/9; /* Example: 16:9 aspect ratio */
+    width: 100%;
+    height: auto;
+}
+
+.widescreen{
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: auto;
+}
+
 .sections h4 {
     font-size: larger;
 }
@@ -322,7 +334,7 @@ ul {
     margin-left: 18%;
     /* margin-left: 15vw; */
     /* width: calc(75% - 200px);  */
-    width: 40vw;
+    /* width: 40vw; */
     padding: 20px;
     box-sizing: border-box;
 }
