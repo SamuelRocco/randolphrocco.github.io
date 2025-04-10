@@ -10,17 +10,17 @@
     padding: 2px; */
     font-size: larger;
     font-weight: bold;
-    color: dodgerblue;
+    color: #800020;
     text-decoration: none;
 }
 
 .focuslink:hover {
-    color: dodgerblue;
+    color: #800020;
     text-decoration: underline;
 }
 
 .focuslink:visited {
-    color: dodgerblue;
+    color: #800020;
 }
 
 
@@ -48,6 +48,6 @@
 #flink:hover {
     /* color: #222; */
     color: #fff;
-    box-shadow: inset 35vw 0 0 0 dodgerblue;
+    box-shadow: inset 35vw 0 0 0 #800020;
     /* background: linear-gradient(to right, mediumslateblue, dodgerblue); */
 }

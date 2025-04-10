@@ -94,7 +94,7 @@ span {
 .link:hover {
     /* color: #222; */
     color: #fff;
-    box-shadow: inset 24vw 0 0 0 dodgerblue;
+    box-shadow: inset 24vw 0 0 0 #800020;
     /* background: linear-gradient(to right, mediumslateblue, dodgerblue); */
 }
 
@@ -102,6 +102,14 @@ span {
     column-count: 2;
     line-height: 1.5vh;
 }
+
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 50%;
+  }
 
 .topbar {
     width: 100%;
