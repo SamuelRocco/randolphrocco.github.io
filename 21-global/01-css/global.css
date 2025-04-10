@@ -39,13 +39,13 @@ cite {
 }
 
 span {
-    color: dodgerblue;
+    color: #bd2f55;
     font-weight: bold;
 }
 
 .mention {
     text-align: center;
-    color: dodgerblue;
+    color: #800020;
     font-weight: bold;
     text-decoration: underline;
 }
@@ -220,7 +220,7 @@ span {
 
 .sidebar ul li a:hover {
     transform: scale(1.2);
-    background: linear-gradient(to right, white, white, white, dodgerblue, dodgerblue, dodgerblue, dodgerblue);
+    background: linear-gradient(to right, white, white, white, #800020, #800020, #800020, #800020);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     /* color: mediumslateblue; */
@@ -366,7 +366,7 @@ ul {
     .link:hover {
         /* color: #222; */
         color: #fff;
-        box-shadow: inset 30vw 0 0 0 dodgerblue;
+        box-shadow: inset 30vw 0 0 0 #800020;
         /* background: linear-gradient(to right, mediumslateblue, dodgerblue); */
     }
 }
@@ -376,7 +376,7 @@ ul {
     .link:hover {
         /* color: #222; */
         color: #fff;
-        box-shadow: inset 30vw 0 0 0 dodgerblue;
+        box-shadow: inset 30vw 0 0 0 #800020;
         /* background: linear-gradient(to right, mediumslateblue, dodgerblue); */
     }
 
