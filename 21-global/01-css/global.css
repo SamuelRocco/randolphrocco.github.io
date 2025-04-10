@@ -35,7 +35,7 @@ li {
 }
 
 cite {
-    font-size: small;
+    font-size:xx-small;
 }
 
 span {
@@ -65,7 +65,8 @@ span {
 
 .imgcite {
     -webkit-column-break-inside: avoid;
-    word-break: break-all;
+    word-break: keep-all;
+    line-height: 2em;
 }
 
 .imgtext {
