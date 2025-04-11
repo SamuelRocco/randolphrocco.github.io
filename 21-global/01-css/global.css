@@ -297,19 +297,13 @@ section li {
 }
 
 footer {
-    position: absolute;
     text-align: center;
     width: 100%;
-    margin: 0 auto;
-    font-size: small;
-    padding-top: 2%;
-    padding-bottom: 2%;
-    border-left: 2%;
     background-color: black;
     color: #fff;
+    font-size: small;
+    padding: 2% 0;
     box-shadow: 0 0 24px rgba(0, 0, 0, 0.7);
-    /* width: fit-content; */
-
 
 }
 
