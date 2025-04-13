@@ -72,6 +72,7 @@ span {
 .imgtext {
     -webkit-column-break-inside: avoid;
     word-break:keep-all;
+    font-size: larger;
 }
 
 .link {
@@ -320,7 +321,18 @@ iframe {
 }
 
 .sections h4 {
+    font-weight: normal;
     font-size: larger;
+}
+
+.sections h5 {
+    font-size:medium;
+    font-weight: normal;
+    line-height: 150%;
+}
+
+h4 {
+    font-weight: normal;
 }
 
 ul {
